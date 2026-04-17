@@ -1,0 +1,21 @@
+html {
+    background: linear-gradient(135deg, antiquewhite 0%, #f5e8c7 100%);
+}
+
+.texto-bienvenida {
+    background: linear-gradient(45deg, #495057, #6c757d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
+    text-align: center;
+    padding: 1rem;
+}
+
+header img {
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    margin: 2rem auto;
+    display: block;
+}
